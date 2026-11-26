@@ -1,6 +1,6 @@
 locals {
 
-  final_sg_name = "${var.project}-${var.environment}-${var.sg_name}"
+  final_sg_name = "${var.project}-${var.environment}-${var.sg_names}"
 
   common_tags = {
              

@@ -1,7 +1,7 @@
 resource "aws_security_group" "main" {
 
-    name = var.sg_name
-    description = "Allow traffic for ${var.sg_name}"
+    name = var.sg_names
+    description = "Allow traffic for ${var.sg_names}"
     vpc_id = var.vpc_id
 
 
